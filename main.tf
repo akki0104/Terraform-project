@@ -7,7 +7,7 @@ provider "aws" {
 provider "aws" {
         region = "ap-south-1"
         # alias = "ap-south-1"
-
+}
 # configure ami details and instance type
 resource "aws_instance" "example" {
       ami = "ami-01f3f4b95d125a9af"    # setting ami details
